@@ -12,7 +12,7 @@ INSERT INTO medicoes_experimento (repeticao, valor_medido, sujeito) VALUES
 (4, 13.1567, 'B'),
 (5, 12.2627, 'B'),
 (6, 13.5649, 'B');
-== 2.4 Consultando registros da tabela
+-- 2.5 Consultando registros da tabela
 select * from medicoes_experimento;
--- 2.5 Consultando registros agrupados com função de agregação
+-- 2.6 Consultando registros agrupados com função de agregação
 SELECT sujeito, AVG(valor_medido) FROM medicoes_experimento GROUP BY sujeito;
