@@ -1,4 +1,4 @@
-CREATE TABLE medicoes _experimento (
+CREATE TABLE medicoes_experimento (
 repeticao INT, valor_medido DECIMAL (10,4)
 -- Carga de dados
 INSERT INTO medicoes_experimento (repeticao, valor_medido) VALUES
@@ -10,4 +10,4 @@ INSERT INTO medicoes_experimento (repeticao, valor_medido) VALUES
 (6, 12.3849);
 -- 2. Aplicando função para arredondamento de valores
 select * from medicoes_experimento;
-SELECT repeticao, ROUND(valor_medido) FROM medicoes_ experimento;
+SELECT repeticao, ROUND(valor_medido) FROM medicoes_experimento;
